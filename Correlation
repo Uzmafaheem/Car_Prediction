@@ -1,0 +1,71 @@
+# Correlation of each feature with the target variable (Price).
+
+Interpretation of Correlation Values
+
+Range: Correlation values range from -1 to 1.
+Close to 1: Strong positive correlation.
+Close to -1: Strong negative correlation.
+Close to 0: Weak or no correlation.
+Key Insights from the Correlation Series
+
+# 1. Strong Positive Correlation
+
+Engine_Size (0.357):
+Cars with larger engines tend to have higher prices.
+This makes sense, as larger engines are often found in luxury or performance vehicles.
+
+Fuel_Type_Electric (0.226):
+Electric vehicles tend to have higher prices compared to other fuel types.
+This could reflect the premium pricing of electric cars in the market.
+
+# 2. Weak Positive Correlation
+
+Fuel_Type_Hybrid (0.048):
+Hybrid vehicles have a slight positive correlation with price.
+This suggests that hybrid cars are priced slightly higher than average.
+Brand_Chevrolet (0.017), Brand_Mercedes (0.013), Brand_Volkswagen (0.008):
+These brands have a very weak positive correlation with price.
+This could indicate that cars from these brands are priced slightly higher than the average.
+
+# 3. Weak Negative Correlation
+
+Brand_Ford (-0.00004), Brand_Toyota (-0.006), Brand_Hyundai (-0.008), Brand_BMW (-0.016), Brand_Honda (-0.020):
+These brands have a very weak negative correlation with price.
+This suggests that cars from these brands are priced slightly lower than the average.
+
+# 4. Moderate to Strong Negative Correlation
+
+Transmission_Manual (-0.112), Transmission_Semi-Automatic (-0.133):
+Manual and semi-automatic transmissions are associated with lower prices.
+This could reflect consumer preferences or the fact that automatic transmissions are often found in more expensive cars.
+
+Fuel_Type_Petrol (-0.142):
+Petrol vehicles tend to have lower prices compared to other fuel types.
+This could reflect the lower cost of petrol vehicles compared to electric or hybrid vehicles.
+
+Mileage (-0.551):
+Higher mileage is strongly associated with lower prices.
+This makes sense, as cars with higher mileage are generally considered less valuable.
+
+Car_Age (-0.663):
+Older cars are strongly associated with lower prices.
+This is expected, as cars depreciate in value over time.
+
+# Actionable Insights
+
+Key Drivers of Price:
+Car_Age and Mileage are the strongest predictors of price (highest absolute correlation values).
+
+Engine_Size and Fuel_Type_Electric also have a significant impact on price.
+
+Feature Selection:
+
+Focus on features with strong correlations (e.g., Car_Age, Mileage, Engine_Size, Fuel_Type_Electric) for building the model.
+
+Consider dropping or combining features with very weak correlations (e.g., Brand_Chevrolet, Brand_Ford, Brand_Toyota).
+
+Business Implications:
+
+Electric and hybrid vehicles command higher prices, which could inform marketing and pricing strategies.
+
+Older cars and high-mileage cars are priced lower, which could help in setting fair prices for used vehicles.
