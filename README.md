@@ -21,3 +21,6 @@ Techniques: Data cleaning, feature engineering, regression modeling, cross-valid
 Achieved high model accuracy: Built a Linear Regression model with an RMSE of 64.75 and R² of 0.9995, outperforming other algorithms like Random Forest and Gradient Boosting.
 Identified key drivers of car prices: Used feature importance analysis to determine that mileage, car age, and engine size were the most significant predictors of price.
 Improved model interpretability: Conducted residual analysis and cross-validation to ensure the model met linear regression assumptions and generalized well to unseen data.
+
+## Link for dataset
+https://www.kaggle.com/datasets/asinow/car-price-dataset
